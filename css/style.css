@@ -104,6 +104,7 @@ nav ul li a {
   margin-bottom: 30px;
 }
 .banner-btn2{
+  margin-left: 10px;
   background: transparent;
   color: rgb(253, 110, 10);
   border: 1px solid rgb(253, 110, 10);
@@ -241,3 +242,48 @@ font-weight: 700;
     text-align: center;
     margin-top: 30px;
   }
+
+
+/* footer section */
+
+#footer{
+  background: rgb(255, 248, 243);
+}
+.footer-content{
+  width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  padding: 100px 0;
+}
+.lets-connect{
+  width: 60%;
+  padding-right: 100px;
+}
+.lets-connect h1, 
+.lets-message h1{
+  margin-bottom: 30px;
+}
+.lets-connect p{
+  margin-bottom: 20px;
+}
+.lets-connect img{
+  margin-right: 10px;
+}
+.lets-message{
+  width: 40%;
+}
+.lets-message input{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  border: none;
+}
+.send-message{
+  width: 100%;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
